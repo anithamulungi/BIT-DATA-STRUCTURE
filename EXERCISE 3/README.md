@@ -13,6 +13,7 @@ Practical (Rwanda): UR pushes ["Exercise1", "Exercise2", "Exercise3"]. Undo one.
 This scenario models a submission system at the University of Rwanda (UR), where students submit exercises in a specific order. The stack tracks these submissions, with the most recent exercise at the top. 
 
 Challenge: Reverse "STACKMODEL" using stack.
+
 This challenge tests the ability to reverse a string ( "STACKMODEL") by leveraging a stack's LIFO property. Each character of the string is added to the stack in sequence, and then removed in reverse order to form the reversed string. 
 
 Reflection: Why stack is good for undo but not for customer order?
