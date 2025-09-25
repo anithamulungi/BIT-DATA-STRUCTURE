@@ -1,4 +1,5 @@
- Descriptions
+ Descriptions.
+ 
 These descriptions explain the context, purpose, and reasoning behind each task focusing on the real-world applications.
 Stack Questions
 Practical (Rwanda): In MoMo, push ["PIN", "Amount", "Confirm"]. Undo 2. Which remains?
