@@ -4,25 +4,24 @@ Descriptions.
 
 Integers:
 
-This represents the numerical scores such as the totals, averages, minimum, and maximum scores. This process helps in evaluating the performance of the pitches based on quantitative data.
+In this project we use integers to scores  such as the totals, averages, minimum, and maximum scores. This process helps in evaluating the performance of the pitches based on quantitative data.Example if scores are [70,85,60],total=215,average=71.67,min=60,max=85.
 
 Strings:
 
-The project requires crafting at least two f-strings shows totals and averages, providing a clear and understandable overview of the data .
+Strings are text values and in our project we use string to create a report and we use f-strings (formatted strings)to easily display totals and the averages in asimple and readable way.
 
 Booleans:
-
-Boolean  plays a role in applying a threshold condition ,the project uses this to determine a status "Above Standard" if the average exceeds the threshold or "Below Standard" if average is lower the thershold. 
+Boleans store either true or false values ,in our project we check if the average score is above acertain threshold and if it is above the threshold we print above standard and if it is below we print below standard.
 
 Lists:
 
-The project involves maintaining a list of items or records, adding a new element based on a compound boolean condition, removing an element based on a condition, sorting the list, and displaying it before and after modifications.
+Lists store multiple values in one variable ,in our project we keep all the pitch scores in the list and we can add,remove sort scores easily.
 
 Arrays:
 
-It involves computing the sum of the array and comparing it with the list version, offering insight into the efficiency and structure of array-based data storage compared to lists.
+Arrays are like list but stores only numbers,in our project we use python array module to store numeric pitch scores and then we compute the sum of array and compare it with the list sum.
 
 Dictionaries:
 
-Dictionaries are used to build a list of records for Entrepreneur Pitch Scores, each containing fields such as 'id', 'name', and 'value'. The project includes updating one record, deleting another, and computing the total value across all records.
+Dictionaries store data in key value pairs which are used to build a list of records for Entrepreneur Pitch Scores, each containing fields such as 'id', 'name', and 'value'. The project includes updating one record, deleting another, and computing the total value across all records.
 
