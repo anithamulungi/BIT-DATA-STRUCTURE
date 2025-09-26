@@ -6,11 +6,11 @@ Stack Questions
 
 Practical (Rwanda): In MoMo, push ["PIN", "Amount", "Confirm"]. Undo 2. Which remains?
 
-The stack represents a sequence of actions (entering PIN, amount, and confirmation) performed by a user. The "undo" operation corrects mistakes by reversing the last two actions.
+The stack represents a sequence of actions (entering PIN, amount, and confirmation) performed by a user. The "undo" operation corrects mistakes by reversing the last two actions and after undoing 2 we remain with PIN as stack follows LIFO approach.
 
 Practical (Rwanda): UR pushes ["Exercise1", "Exercise2", "Exercise3"]. Undo one. Which is left?
 
-This scenario models a submission system at the University of Rwanda (UR), where students submit exercises in a specific order. The stack tracks these submissions, with the most recent exercise at the top. 
+This scenario models a submission system at the University of Rwanda (UR), where students submit exercises in a specific order. The stack tracks these submissions, with the most recent exercise at the top and after undo one exercise we are left with exercise 1 and exercise 2. 
 
 Challenge: Reverse "STACKMODEL" using stack.
 
@@ -28,11 +28,11 @@ Clients arrive and are served in the order they join. After serving the first th
 
 Practical (Rwanda): At BK ATM, 9 clients queue. Who is served second?
 
-This scenario simulates a line at a Bank of Kigali (BK) ATM, where clients wait to use the machine. The queue follows FIFO, meaning the order of arrival determines the service order.
+This scenario simulates a line at a Bank of Kigali (BK) ATM, where clients wait to use the machine. The queue follows FIFO, meaning the order of arrival determines the service order so,after the 1st client the 2nd client is served next.
 
 Challenge: Queue vs stack for voters. Which ensures fairness?
 
- A queue (FIFO) ensures voters are served in the order they arrive, promoting fairness and preventing line-cutting. A stack (LIFO) would serve the last voter first, which is unfair and impractical. 
+ A queue (FIFO) ensures voters are served in the order they arrive, promoting fairness and preventing line-cutting. A stack (LIFO) would serve the last voter first, which is unfair and impractical so, queue ensues fairness. 
 
 Reflection: Why FIFO is linked with democracy?
 
